@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		94811C4024B9D5F00066E212 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
-		94811C4124B9D5FF0066E212 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
 		94811CE024B9D7780066E212 /* doraemon_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94811C4324B9D7770066E212 /* doraemon_setting@3x.png */; };
 		94811CE124B9D7780066E212 /* doraemon_mock_gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94811C4424B9D7770066E212 /* doraemon_mock_gps@2x.png */; };
 		94811CE224B9D7780066E212 /* doraemon_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94811C4524B9D7770066E212 /* doraemon_more@2x.png */; };
@@ -620,7 +619,7 @@
 		9481EAB224B9CABA00976CD3 /* DoraemonLargeImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481E8AE24B9CAB800976CD3 /* DoraemonLargeImageViewController.h */; };
 		9481EAB324B9CABA00976CD3 /* DoraemonLargeImagePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9481E8AF24B9CAB800976CD3 /* DoraemonLargeImagePlugin.m */; };
 		9481EAB524B9CABA00976CD3 /* DoraemonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9481E8B224B9CAB800976CD3 /* DoraemonManager.m */; };
-		9481EAB624B9CABA00976CD3 /* DoraemonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481E8B324B9CAB800976CD3 /* DoraemonManager.h */; };
+		9481EAB624B9CABA00976CD3 /* DoraemonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481E8B324B9CAB800976CD3 /* DoraemonManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9481EAB724B9CABA00976CD3 /* DoraemonAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9481E8B624B9CAB800976CD3 /* DoraemonAlertUtil.m */; };
 		9481EAB824B9CABA00976CD3 /* DoraemonAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481E8B724B9CAB800976CD3 /* DoraemonAlertUtil.h */; };
 		9481EAB924B9CABA00976CD3 /* DoraemonToastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481E8B924B9CAB800976CD3 /* DoraemonToastUtil.h */; };
@@ -724,6 +723,8 @@
 		9481EB7324B9D05400976CD3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB7224B9D05400976CD3 /* EventKit.framework */; };
 		9481EB7524B9D05B00976CD3 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB7424B9D05B00976CD3 /* Contacts.framework */; };
 		9481EB7624B9D06400976CD3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB6924B9D02600976CD3 /* libsqlite3.tbd */; };
+		94A7953624BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
+		94A7953724BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -743,6 +744,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				94A7953724BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Embed Frameworks */,
 				9481EB5D24B9CBA100976CD3 /* DoraemonKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -1502,7 +1504,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94811C4124B9D5FF0066E212 /* DoraemonLoadAnalyze.framework in Frameworks */,
+				94A7953624BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Frameworks */,
 				9481EB5C24B9CBA100976CD3 /* DoraemonKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1774,21 +1776,21 @@
 		9481E68D24B9CAB700976CD3 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				9481E68E24B9CAB700976CD3 /* DoraemonStatisticsUtil.m */,
-				9481E68F24B9CAB700976CD3 /* Doraemoni18NUtil.m */,
-				9481E69024B9CAB700976CD3 /* DoraemonUtil.h */,
-				9481E69124B9CAB700976CD3 /* DoraemonThreadSafeMutableArray.m */,
-				9481E69224B9CAB700976CD3 /* fishhook */,
-				9481E69524B9CAB700976CD3 /* DoraemonNetworkUtil.h */,
-				9481E69624B9CAB700976CD3 /* DoraemonThreadSafeMutableDictionary.h */,
-				9481E69724B9CAB700976CD3 /* DoraemonStatisticsUtil.h */,
-				9481E69824B9CAB700976CD3 /* Doraemoni18NUtil.h */,
 				9481E69924B9CAB700976CD3 /* BSBacktraceLogger */,
-				9481E69C24B9CAB700976CD3 /* DoraemonUtil.m */,
-				9481E69D24B9CAB700976CD3 /* DoraemonThreadSafeMutableArray.h */,
-				9481E69E24B9CAB700976CD3 /* DoraemonThreadSafeMutableDictionary.m */,
 				9481E69F24B9CAB700976CD3 /* BuriedPoint */,
+				9481E69824B9CAB700976CD3 /* Doraemoni18NUtil.h */,
+				9481E68F24B9CAB700976CD3 /* Doraemoni18NUtil.m */,
+				9481E69524B9CAB700976CD3 /* DoraemonNetworkUtil.h */,
 				9481E6A224B9CAB700976CD3 /* DoraemonNetworkUtil.m */,
+				9481E69724B9CAB700976CD3 /* DoraemonStatisticsUtil.h */,
+				9481E68E24B9CAB700976CD3 /* DoraemonStatisticsUtil.m */,
+				9481E69D24B9CAB700976CD3 /* DoraemonThreadSafeMutableArray.h */,
+				9481E69124B9CAB700976CD3 /* DoraemonThreadSafeMutableArray.m */,
+				9481E69624B9CAB700976CD3 /* DoraemonThreadSafeMutableDictionary.h */,
+				9481E69E24B9CAB700976CD3 /* DoraemonThreadSafeMutableDictionary.m */,
+				9481E69024B9CAB700976CD3 /* DoraemonUtil.h */,
+				9481E69C24B9CAB700976CD3 /* DoraemonUtil.m */,
+				9481E69224B9CAB700976CD3 /* fishhook */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -3366,6 +3368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9481E92424B9CAB900976CD3 /* DoraemonEntryWindow.h in Headers */,
+				9481EAB624B9CABA00976CD3 /* DoraemonManager.h in Headers */,
 				9481E8EE24B9CAB900976CD3 /* DoraemonCacheManager.h in Headers */,
 				9481E92324B9CAB900976CD3 /* DoraemonHomeWindow.h in Headers */,
 				9481EA3324B9CABA00976CD3 /* DoraemonANRTracker.h in Headers */,
@@ -3630,7 +3633,6 @@
 				9481EA8824B9CABA00976CD3 /* DoraemonTimeProfilerPlugin.h in Headers */,
 				9481E90324B9CAB900976CD3 /* DoraemonThreadSafeMutableDictionary.h in Headers */,
 				9481EB3924B9CADC00976CD3 /* DoraemonMethodUseTimeViewController.h in Headers */,
-				9481EAB624B9CABA00976CD3 /* DoraemonManager.h in Headers */,
 				9481E9B624B9CAB900976CD3 /* DoraemonMockBaseListView.h in Headers */,
 				9481EA3F24B9CABA00976CD3 /* DoraemonSubThreadUICheckViewController.h in Headers */,
 				9481EA4624B9CABA00976CD3 /* DoraemonSubThreadUICheckDetailViewController.h in Headers */,
