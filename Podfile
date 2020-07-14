@@ -23,3 +23,12 @@ target 'DoraemonKit Developer' do
   public
 
 end
+
+target 'DoraemonKit Developer iOS9' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for DoraemonKit Developer
+  public
+
+end

@@ -723,12 +723,32 @@
 		9481EB7324B9D05400976CD3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB7224B9D05400976CD3 /* EventKit.framework */; };
 		9481EB7524B9D05B00976CD3 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB7424B9D05B00976CD3 /* Contacts.framework */; };
 		9481EB7624B9D06400976CD3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481EB6924B9D02600976CD3 /* libsqlite3.tbd */; };
+		94A07EF724BD42B3002E7728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07EF624BD42B3002E7728 /* AppDelegate.m */; };
+		94A07EFD24BD42B3002E7728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07EFC24BD42B3002E7728 /* ViewController.m */; };
+		94A07F0024BD42B3002E7728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A07EFE24BD42B3002E7728 /* Main.storyboard */; };
+		94A07F0224BD42B7002E7728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A07F0124BD42B7002E7728 /* Assets.xcassets */; };
+		94A07F0524BD42B8002E7728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A07F0324BD42B7002E7728 /* LaunchScreen.storyboard */; };
+		94A07F0824BD42B8002E7728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07F0724BD42B8002E7728 /* main.m */; };
+		94A07F0C24BD4366002E7728 /* DoraemonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481E67024B9C9D100976CD3 /* DoraemonKit.framework */; };
+		94A07F0D24BD4366002E7728 /* DoraemonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9481E67024B9C9D100976CD3 /* DoraemonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94A07F1124BD43D3002E7728 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
+		94A07F1224BD43D3002E7728 /* DoraemonLoadAnalyze.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94A07F1524BD46DF002E7728 /* DoraemonNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A07F1324BD46DF002E7728 /* DoraemonNavigationController.h */; };
+		94A07F1624BD46DF002E7728 /* DoraemonNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07F1424BD46DF002E7728 /* DoraemonNavigationController.m */; };
+		94A07F1924BD4BB2002E7728 /* YXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07F1824BD4BB2002E7728 /* YXNavigationViewController.m */; };
 		94A7953624BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
 		94A7953724BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9481EB5E24B9CBA100976CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9481E66724B9C9D100976CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9481E66F24B9C9D100976CD3;
+			remoteInfo = DoraemonKit;
+		};
+		94A07F0E24BD4366002E7728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9481E66724B9C9D100976CD3 /* Project object */;
 			proxyType = 1;
@@ -750,11 +770,25 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94A07F1024BD4366002E7728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94A07F1224BD43D3002E7728 /* DoraemonLoadAnalyze.framework in Embed Frameworks */,
+				94A07F0D24BD4366002E7728 /* DoraemonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A5504603DDEED6BB491B093 /* Pods_DoraemonKit_Developer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraemonKit_Developer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A6CC3DF589F8D63C6843A0 /* Pods-DoraemonKit Developer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit Developer.debug.xcconfig"; path = "Target Support Files/Pods-DoraemonKit Developer/Pods-DoraemonKit Developer.debug.xcconfig"; sourceTree = "<group>"; };
 		56BE5E34A4A0E61CBDB0D0D3 /* Pods-DoraemonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit.debug.xcconfig"; path = "Target Support Files/Pods-DoraemonKit/Pods-DoraemonKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7DD3D20AC5E0BE92B5401251 /* Pods_DoraemonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraemonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoraemonLoadAnalyze.framework; path = vendored_frameworks/DoraemonLoadAnalyze.framework; sourceTree = "<group>"; };
 		94811C4324B9D7770066E212 /* doraemon_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doraemon_setting@3x.png"; sourceTree = "<group>"; };
 		94811C4424B9D7770066E212 /* doraemon_mock_gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doraemon_mock_gps@2x.png"; sourceTree = "<group>"; };
@@ -1477,7 +1511,24 @@
 		9481EB7024B9D04800976CD3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9481EB7224B9D05400976CD3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		9481EB7424B9D05B00976CD3 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		94A07EF324BD42B2002E7728 /* DoraemonKit Developer iOS9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoraemonKit Developer iOS9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A07EF524BD42B3002E7728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94A07EF624BD42B3002E7728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94A07EFB24BD42B3002E7728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94A07EFC24BD42B3002E7728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94A07EFF24BD42B3002E7728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A07F0124BD42B7002E7728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94A07F0424BD42B7002E7728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94A07F0624BD42B8002E7728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A07F0724BD42B8002E7728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94A07F1324BD46DF002E7728 /* DoraemonNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraemonNavigationController.h; sourceTree = "<group>"; };
+		94A07F1424BD46DF002E7728 /* DoraemonNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoraemonNavigationController.m; sourceTree = "<group>"; };
+		94A07F1724BD4BB2002E7728 /* YXNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXNavigationViewController.h; sourceTree = "<group>"; };
+		94A07F1824BD4BB2002E7728 /* YXNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNavigationViewController.m; sourceTree = "<group>"; };
+		A2414ADB31400588A92CBCF5 /* Pods-DoraemonKit Developer iOS9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit Developer iOS9.release.xcconfig"; path = "Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9.release.xcconfig"; sourceTree = "<group>"; };
 		A433E3A383162DE0E430E9F2 /* Pods-DoraemonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit.release.xcconfig"; path = "Target Support Files/Pods-DoraemonKit/Pods-DoraemonKit.release.xcconfig"; sourceTree = "<group>"; };
+		ADF2338B14087BB677031A3F /* Pods_DoraemonKit_Developer_iOS9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraemonKit_Developer_iOS9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68A9D705846A2B17DFE3CC5 /* Pods-DoraemonKit Developer iOS9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit Developer iOS9.debug.xcconfig"; path = "Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9.debug.xcconfig"; sourceTree = "<group>"; };
 		C3682931CFF392B27029B42E /* Pods-DoraemonKit Developer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit Developer.release.xcconfig"; path = "Target Support Files/Pods-DoraemonKit Developer/Pods-DoraemonKit Developer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1509,6 +1560,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94A07EF024BD42B2002E7728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A07F1124BD43D3002E7728 /* DoraemonLoadAnalyze.framework in Frameworks */,
+				94A07F0C24BD4366002E7728 /* DoraemonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1519,6 +1579,8 @@
 				A433E3A383162DE0E430E9F2 /* Pods-DoraemonKit.release.xcconfig */,
 				40A6CC3DF589F8D63C6843A0 /* Pods-DoraemonKit Developer.debug.xcconfig */,
 				C3682931CFF392B27029B42E /* Pods-DoraemonKit Developer.release.xcconfig */,
+				B68A9D705846A2B17DFE3CC5 /* Pods-DoraemonKit Developer iOS9.debug.xcconfig */,
+				A2414ADB31400588A92CBCF5 /* Pods-DoraemonKit Developer iOS9.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1691,6 +1753,7 @@
 			children = (
 				9481E67224B9C9D100976CD3 /* DoraemonKit */,
 				9481EB4424B9CB8100976CD3 /* DoraemonKit Developer */,
+				94A07EF424BD42B2002E7728 /* DoraemonKit Developer iOS9 */,
 				9481E67124B9C9D100976CD3 /* Products */,
 				9481EB3A24B9CB5B00976CD3 /* Frameworks */,
 				5B0B0C565A1331F33F76DAAC /* Pods */,
@@ -1702,6 +1765,7 @@
 			children = (
 				9481E67024B9C9D100976CD3 /* DoraemonKit.framework */,
 				9481EB4324B9CB8100976CD3 /* DoraemonKit Developer.app */,
+				94A07EF324BD42B2002E7728 /* DoraemonKit Developer iOS9.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1758,17 +1822,17 @@
 		9481E68124B9CAB700976CD3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9481E68224B9CAB700976CD3 /* UIImage+Doraemon.h */,
-				9481E68324B9CAB700976CD3 /* UIViewController+Doraemon.m */,
-				9481E68424B9CAB700976CD3 /* UIView+Doraemon.h */,
-				9481E68524B9CAB700976CD3 /* UIColor+Doraemon.m */,
-				9481E68624B9CAB700976CD3 /* NSObject+Doraemon.m */,
-				9481E68724B9CAB700976CD3 /* UIViewController+Doraemon.h */,
-				9481E68824B9CAB700976CD3 /* UIImage+Doraemon.m */,
-				9481E68924B9CAB700976CD3 /* NSObject+Doraemon.h */,
-				9481E68A24B9CAB700976CD3 /* UIView+Doraemon.m */,
-				9481E68B24B9CAB700976CD3 /* UIColor+Doraemon.h */,
 				9481E68C24B9CAB700976CD3 /* Foundation+Doraemon.m */,
+				9481E68924B9CAB700976CD3 /* NSObject+Doraemon.h */,
+				9481E68624B9CAB700976CD3 /* NSObject+Doraemon.m */,
+				9481E68B24B9CAB700976CD3 /* UIColor+Doraemon.h */,
+				9481E68524B9CAB700976CD3 /* UIColor+Doraemon.m */,
+				9481E68224B9CAB700976CD3 /* UIImage+Doraemon.h */,
+				9481E68824B9CAB700976CD3 /* UIImage+Doraemon.m */,
+				9481E68424B9CAB700976CD3 /* UIView+Doraemon.h */,
+				9481E68A24B9CAB700976CD3 /* UIView+Doraemon.m */,
+				9481E68724B9CAB700976CD3 /* UIViewController+Doraemon.h */,
+				9481E68324B9CAB700976CD3 /* UIViewController+Doraemon.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1834,12 +1898,14 @@
 		9481E6A424B9CAB700976CD3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9481E6A524B9CAB700976CD3 /* Settings */,
-				9481E6B224B9CAB700976CD3 /* DoraemonHomeWindow.m */,
-				9481E6B324B9CAB700976CD3 /* DoraemonHomeViewController.m */,
 				9481E6B424B9CAB700976CD3 /* Cell */,
 				9481E6BD24B9CAB700976CD3 /* DoraemonHomeViewController.h */,
+				9481E6B324B9CAB700976CD3 /* DoraemonHomeViewController.m */,
 				9481E6BE24B9CAB700976CD3 /* DoraemonHomeWindow.h */,
+				9481E6B224B9CAB700976CD3 /* DoraemonHomeWindow.m */,
+				9481E6A524B9CAB700976CD3 /* Settings */,
+				94A07F1324BD46DF002E7728 /* DoraemonNavigationController.h */,
+				94A07F1424BD46DF002E7728 /* DoraemonNavigationController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -3338,6 +3404,9 @@
 				9481EB6724B9D01E00976CD3 /* CoreTelephony.framework */,
 				9481EB6524B9D01600976CD3 /* AVKit.framework */,
 				9481EB6324B9D01000976CD3 /* QuickLook.framework */,
+				7DD3D20AC5E0BE92B5401251 /* Pods_DoraemonKit.framework */,
+				3A5504603DDEED6BB491B093 /* Pods_DoraemonKit_Developer.framework */,
+				ADF2338B14087BB677031A3F /* Pods_DoraemonKit_Developer_iOS9.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3351,6 +3420,8 @@
 				9481EB4924B9CB8100976CD3 /* SceneDelegate.m */,
 				9481EB4B24B9CB8100976CD3 /* ViewController.h */,
 				9481EB4C24B9CB8100976CD3 /* ViewController.m */,
+				94A07F1724BD4BB2002E7728 /* YXNavigationViewController.h */,
+				94A07F1824BD4BB2002E7728 /* YXNavigationViewController.m */,
 				9481EB4E24B9CB8100976CD3 /* Main.storyboard */,
 				9481EB5124B9CB8A00976CD3 /* Assets.xcassets */,
 				9481EB5324B9CB8A00976CD3 /* LaunchScreen.storyboard */,
@@ -3358,6 +3429,22 @@
 				9481EB5724B9CB8A00976CD3 /* main.m */,
 			);
 			path = "DoraemonKit Developer";
+			sourceTree = "<group>";
+		};
+		94A07EF424BD42B2002E7728 /* DoraemonKit Developer iOS9 */ = {
+			isa = PBXGroup;
+			children = (
+				94A07EF524BD42B3002E7728 /* AppDelegate.h */,
+				94A07EF624BD42B3002E7728 /* AppDelegate.m */,
+				94A07EFB24BD42B3002E7728 /* ViewController.h */,
+				94A07EFC24BD42B3002E7728 /* ViewController.m */,
+				94A07EFE24BD42B3002E7728 /* Main.storyboard */,
+				94A07F0124BD42B7002E7728 /* Assets.xcassets */,
+				94A07F0324BD42B7002E7728 /* LaunchScreen.storyboard */,
+				94A07F0624BD42B8002E7728 /* Info.plist */,
+				94A07F0724BD42B8002E7728 /* main.m */,
+			);
+			path = "DoraemonKit Developer iOS9";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3604,6 +3691,7 @@
 				9481E93224B9CAB900976CD3 /* DoraemonColorPickView.h in Headers */,
 				9481EA4224B9CABA00976CD3 /* UIView+DoraemonSubThreadUICheck.h in Headers */,
 				9481E9F924B9CABA00976CD3 /* DoraemonNSLogSearchView.h in Headers */,
+				94A07F1524BD46DF002E7728 /* DoraemonNavigationController.h in Headers */,
 				9481E8F024B9CAB900976CD3 /* DoraemonDefine.h in Headers */,
 				9481E9B724B9CAB900976CD3 /* DoraemonMockApiListView.h in Headers */,
 				9481E92224B9CAB900976CD3 /* DoraemonHomeViewController.h in Headers */,
@@ -3685,6 +3773,27 @@
 			productReference = 9481EB4324B9CB8100976CD3 /* DoraemonKit Developer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		94A07EF224BD42B2002E7728 /* DoraemonKit Developer iOS9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A07F0924BD42B8002E7728 /* Build configuration list for PBXNativeTarget "DoraemonKit Developer iOS9" */;
+			buildPhases = (
+				DDB9DCF250EA10BF90E97C44 /* [CP] Check Pods Manifest.lock */,
+				94A07EEF24BD42B2002E7728 /* Sources */,
+				94A07EF024BD42B2002E7728 /* Frameworks */,
+				94A07EF124BD42B2002E7728 /* Resources */,
+				94A07F1024BD4366002E7728 /* Embed Frameworks */,
+				341FC8B3E7A60B860AC1FC4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A07F0F24BD4366002E7728 /* PBXTargetDependency */,
+			);
+			name = "DoraemonKit Developer iOS9";
+			productName = "DoraemonKit Developer iOS9";
+			productReference = 94A07EF324BD42B2002E7728 /* DoraemonKit Developer iOS9.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3698,6 +3807,9 @@
 						CreatedOnToolsVersion = 11.5;
 					};
 					9481EB4224B9CB8100976CD3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					94A07EF224BD42B2002E7728 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -3718,6 +3830,7 @@
 			targets = (
 				9481E66F24B9C9D100976CD3 /* DoraemonKit */,
 				9481EB4224B9CB8100976CD3 /* DoraemonKit Developer */,
+				94A07EF224BD42B2002E7728 /* DoraemonKit Developer iOS9 */,
 			);
 		};
 /* End PBXProject section */
@@ -3895,9 +4008,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94A07EF124BD42B2002E7728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A07F0524BD42B8002E7728 /* LaunchScreen.storyboard in Resources */,
+				94A07F0224BD42B7002E7728 /* Assets.xcassets in Resources */,
+				94A07F0024BD42B3002E7728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		341FC8B3E7A60B860AC1FC4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6FE14975DD6108EA22676902 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3953,6 +4093,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DoraemonKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB9DCF250EA10BF90E97C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoraemonKit Developer iOS9-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4102,6 +4264,7 @@
 				9481EACC24B9CABA00976CD3 /* DoraemonOscillogramView.m in Sources */,
 				9481EA1B24B9CABA00976CD3 /* DoraemonNetFlowDetailSegment.m in Sources */,
 				9481EA8524B9CABA00976CD3 /* DoraemonCrashListCell.m in Sources */,
+				94A07F1624BD46DF002E7728 /* DoraemonNavigationController.m in Sources */,
 				9481EB1824B9CAD500976CD3 /* DoraemonGPSMocker.m in Sources */,
 				9481EA2424B9CABA00976CD3 /* DoraemonNetFlowSummaryViewController.m in Sources */,
 				9481E9E024B9CAB900976CD3 /* DoraemonDBRowView.m in Sources */,
@@ -4242,10 +4405,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A07F1924BD4BB2002E7728 /* YXNavigationViewController.m in Sources */,
 				9481EB4D24B9CB8100976CD3 /* ViewController.m in Sources */,
 				9481EB4724B9CB8100976CD3 /* AppDelegate.m in Sources */,
 				9481EB5824B9CB8A00976CD3 /* main.m in Sources */,
 				9481EB4A24B9CB8100976CD3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A07EEF24BD42B2002E7728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A07EFD24BD42B3002E7728 /* ViewController.m in Sources */,
+				94A07EF724BD42B3002E7728 /* AppDelegate.m in Sources */,
+				94A07F0824BD42B8002E7728 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4256,6 +4430,11 @@
 			isa = PBXTargetDependency;
 			target = 9481E66F24B9C9D100976CD3 /* DoraemonKit */;
 			targetProxy = 9481EB5E24B9CBA100976CD3 /* PBXContainerItemProxy */;
+		};
+		94A07F0F24BD4366002E7728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9481E66F24B9C9D100976CD3 /* DoraemonKit */;
+			targetProxy = 94A07F0E24BD4366002E7728 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4281,6 +4460,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				9481EB5424B9CB8A00976CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94A07EFE24BD42B3002E7728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A07EFF24BD42B3002E7728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94A07F0324BD42B7002E7728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A07F0424BD42B7002E7728 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4516,6 +4711,52 @@
 			};
 			name = Release;
 		};
+		94A07F0A24BD42B8002E7728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68A9D705846A2B17DFE3CC5 /* Pods-DoraemonKit Developer iOS9.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UG7R53F9S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vendored_frameworks",
+				);
+				INFOPLIST_FILE = "DoraemonKit Developer iOS9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iyunxiao.app.lib.DoraemonKit-Developer-iOS9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94A07F0B24BD42B8002E7728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2414ADB31400588A92CBCF5 /* Pods-DoraemonKit Developer iOS9.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UG7R53F9S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vendored_frameworks",
+				);
+				INFOPLIST_FILE = "DoraemonKit Developer iOS9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iyunxiao.app.lib.DoraemonKit-Developer-iOS9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4542,6 +4783,15 @@
 			buildConfigurations = (
 				9481EB5A24B9CB8A00976CD3 /* Debug */,
 				9481EB5B24B9CB8A00976CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A07F0924BD42B8002E7728 /* Build configuration list for PBXNativeTarget "DoraemonKit Developer iOS9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A07F0A24BD42B8002E7728 /* Debug */,
+				94A07F0B24BD42B8002E7728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
