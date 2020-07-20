@@ -738,6 +738,10 @@
 		94A07F1924BD4BB2002E7728 /* YXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A07F1824BD4BB2002E7728 /* YXNavigationViewController.m */; };
 		94A7953624BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; };
 		94A7953724BBF36C00F52153 /* DoraemonLoadAnalyze.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94811C3F24B9D5EF0066E212 /* DoraemonLoadAnalyze.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94CD384324BF00240042B13D /* YXDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD384224BF00240042B13D /* YXDNavigationController.m */; };
+		94CD384624BF00FF0042B13D /* YXDPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD384524BF00FF0042B13D /* YXDPushViewController.m */; };
+		94CD384924BF010E0042B13D /* YXDPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD384824BF010E0042B13D /* YXDPresentViewController.m */; };
+		94CD384C24BF08550042B13D /* YXDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD384B24BF08550042B13D /* YXDTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1525,6 +1529,14 @@
 		94A07F1424BD46DF002E7728 /* DoraemonNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoraemonNavigationController.m; sourceTree = "<group>"; };
 		94A07F1724BD4BB2002E7728 /* YXNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXNavigationViewController.h; sourceTree = "<group>"; };
 		94A07F1824BD4BB2002E7728 /* YXNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNavigationViewController.m; sourceTree = "<group>"; };
+		94CD384124BF00240042B13D /* YXDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDNavigationController.h; sourceTree = "<group>"; };
+		94CD384224BF00240042B13D /* YXDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDNavigationController.m; sourceTree = "<group>"; };
+		94CD384424BF00FF0042B13D /* YXDPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDPushViewController.h; sourceTree = "<group>"; };
+		94CD384524BF00FF0042B13D /* YXDPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDPushViewController.m; sourceTree = "<group>"; };
+		94CD384724BF010E0042B13D /* YXDPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDPresentViewController.h; sourceTree = "<group>"; };
+		94CD384824BF010E0042B13D /* YXDPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDPresentViewController.m; sourceTree = "<group>"; };
+		94CD384A24BF08550042B13D /* YXDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDTabBarController.h; sourceTree = "<group>"; };
+		94CD384B24BF08550042B13D /* YXDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDTabBarController.m; sourceTree = "<group>"; };
 		A2414ADB31400588A92CBCF5 /* Pods-DoraemonKit Developer iOS9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit Developer iOS9.release.xcconfig"; path = "Target Support Files/Pods-DoraemonKit Developer iOS9/Pods-DoraemonKit Developer iOS9.release.xcconfig"; sourceTree = "<group>"; };
 		A433E3A383162DE0E430E9F2 /* Pods-DoraemonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraemonKit.release.xcconfig"; path = "Target Support Files/Pods-DoraemonKit/Pods-DoraemonKit.release.xcconfig"; sourceTree = "<group>"; };
 		ADF2338B14087BB677031A3F /* Pods_DoraemonKit_Developer_iOS9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraemonKit_Developer_iOS9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3438,6 +3450,14 @@
 				94A07EF624BD42B3002E7728 /* AppDelegate.m */,
 				94A07EFB24BD42B3002E7728 /* ViewController.h */,
 				94A07EFC24BD42B3002E7728 /* ViewController.m */,
+				94CD384A24BF08550042B13D /* YXDTabBarController.h */,
+				94CD384B24BF08550042B13D /* YXDTabBarController.m */,
+				94CD384124BF00240042B13D /* YXDNavigationController.h */,
+				94CD384224BF00240042B13D /* YXDNavigationController.m */,
+				94CD384424BF00FF0042B13D /* YXDPushViewController.h */,
+				94CD384524BF00FF0042B13D /* YXDPushViewController.m */,
+				94CD384724BF010E0042B13D /* YXDPresentViewController.h */,
+				94CD384824BF010E0042B13D /* YXDPresentViewController.m */,
 				94A07EFE24BD42B3002E7728 /* Main.storyboard */,
 				94A07F0124BD42B7002E7728 /* Assets.xcassets */,
 				94A07F0324BD42B7002E7728 /* LaunchScreen.storyboard */,
@@ -4418,6 +4438,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A07EFD24BD42B3002E7728 /* ViewController.m in Sources */,
+				94CD384624BF00FF0042B13D /* YXDPushViewController.m in Sources */,
+				94CD384924BF010E0042B13D /* YXDPresentViewController.m in Sources */,
+				94CD384C24BF08550042B13D /* YXDTabBarController.m in Sources */,
+				94CD384324BF00240042B13D /* YXDNavigationController.m in Sources */,
 				94A07EF724BD42B3002E7728 /* AppDelegate.m in Sources */,
 				94A07F0824BD42B8002E7728 /* main.m in Sources */,
 			);
