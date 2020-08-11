@@ -16,9 +16,9 @@ FOUNDATION_EXPORT const unsigned char DoraemonKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DoraemonKit/PublicHeader.h>
 
-#import "DoraemonManager.h"
-#import "DoraemonEntryWindow.h"
-#import "DoraemonHomeWindow.h"
-#import "DoraemonCacheManager.h"
+#import <DoraemonKit/DoraemonManager.h>
+#import <DoraemonKit/DoraemonEntryWindow.h>
+#import <DoraemonKit/DoraemonHomeWindow.h>
+#import <DoraemonKit/DoraemonCacheManager.h>
 
 

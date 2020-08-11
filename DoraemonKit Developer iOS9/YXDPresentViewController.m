@@ -9,7 +9,7 @@
 #import "YXDPresentViewController.h"
 
 @interface YXDPresentViewController ()
-
+@property (nonatomic, strong) NSTimer *timer;
 @end
 
 @implementation YXDPresentViewController
@@ -27,6 +27,10 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self delayAction];
     });
+    
+//    [self timer];
+//    [self.timer fire];
+    self.timer.fireDate = NSDate.distantPast;
 }
 
 - (void)delayAction {
@@ -39,6 +43,17 @@
 
 - (IBAction)dismissOnTouch:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)timerAction {
+    NSLog(@"*** timer action");
+}
+
+- (NSTimer *)timer {
+    if (!_timer) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
+    }
+    return _timer;
 }
 
 /*
